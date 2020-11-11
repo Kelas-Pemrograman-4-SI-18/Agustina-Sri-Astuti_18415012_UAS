@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tugas3_agustinasriastuti_18415012">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".DetailDarah"></activity>
+        <activity android:name=".pmr.Profile" />
+        <activity android:name=".pmr.InsertData" />
+        <activity android:name=".pmr.EditData" />
+        <activity android:name=".pmr.DataDarah" />
+        <activity android:name=".pendonor.HomePendonor" />
+        <activity android:name=".pmr.HomeAdmin" />
+        <activity android:name=".user.Registrasi" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".user.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
